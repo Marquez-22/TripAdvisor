@@ -227,6 +227,11 @@ body {
 .HeaderFiltro .calendar {
   margin-right: auto;
 }
+@media (max-width: 575px) {
+  .HeaderFiltro {
+    flex-direction: column;
+  }
+}
 
 .ContentFiltros1 {
   display: grid;
