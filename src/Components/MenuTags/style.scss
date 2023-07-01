@@ -1,0 +1,25 @@
+.MenuTags {
+    border-bottom: 1px solid var(--color-snow-white);
+    border-top: 1px solid var(--color-snow-white);
+    cursor: pointer;
+
+
+
+    :hover {
+        color: var(--color-sonic-silver);
+
+    }
+
+    .Container {
+
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        padding-block: 0.7rem ;
+        overflow: auto;
+    }
+}

@@ -1,0 +1,54 @@
+.btn {
+    border-radius: 1.25rem;
+    background: var(--color-black);
+    text-align: center;
+    border: 2px solid var(--color-black);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .0rem .75rem;
+    color: var(--color-white2);
+    cursor: pointer;
+    transition: .4s;
+    height: 2.1rem;
+
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+
+    &:hover {
+        background: var(--color-white2);
+        color: var(--color-black);
+        border-color: var(--color-christmas-silver);
+
+    }
+
+
+    &2 {
+        font-size: .8rem;
+        font-weight: 600;
+        background: var(--color-white2);
+        color: var(--color-black);
+        border-color: var(--color-christmas-silver);
+
+        &:hover {
+            border-color: var(--color-black);
+
+        }
+    }
+
+    &3 {
+        background: transparent;
+        color: var(--color-black);
+        padding: 6px;
+        border: none;
+        font-weight: 600;
+
+        &:hover {
+            background:var(--color-christmas-silver) ;
+            
+           
+        }
+    }
+
+}

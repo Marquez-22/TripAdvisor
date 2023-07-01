@@ -1,0 +1,17 @@
+.CircleHearts{
+   border-radius: 3rem;
+    background: var(--color-white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 45px;
+    aspect-ratio: 1/1;
+    justify-content: center;
+     
+    svg{
+        width: 1.5rem;
+        height: 1.3rem;
+        fill:var(--color-black) ;
+       
+    }
+}

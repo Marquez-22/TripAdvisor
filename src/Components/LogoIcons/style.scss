@@ -1,0 +1,26 @@
+.LogoIcons {
+    padding-top:  1rem;
+    padding-bottom: 1rem;
+    .Container {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    @media (max-width:991px) {
+        .Container{
+            row-gap: 1rem;
+        }
+        .logo {
+            width: 50%;
+        }
+        .InputSearch {
+            width: 50%;
+        }
+        .btn{
+            width: 25%;
+        }
+    }
+   
+}

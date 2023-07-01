@@ -1,0 +1,27 @@
+.MenuFiltro {
+    display: flex;
+    gap: 1rem;
+    padding: 1.8rem 0;
+    cursor: pointer;
+    flex-wrap: wrap;
+ 
+
+    .text {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    svg {
+        width: .5rem;
+        height: .5rem;
+        fill: var(--color-carbon);
+    }
+
+    .contentText {
+        display: flex;
+        gap: .3rem;
+        align-items: center;
+
+    }
+}

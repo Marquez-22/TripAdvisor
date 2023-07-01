@@ -1,0 +1,43 @@
+.ImgTitleText {
+
+    display: grid;
+    grid-template-columns: 15.5rem 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap:1rem;
+    .TouriSites {
+        width: 15.5rem;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+    .content{
+        
+    }
+    .contentHeartsImg{
+        
+        
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            
+            .hearts{ grid-area: 1 / 1 / 2 / 2;
+            z-index: 2;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+            padding: .8rem;
+            
+            }
+            .TouriSites{ grid-area: 1 / 1 / 2 / 2; 
+            z-index: 1;
+            }
+    }
+
+
+
+    
+}

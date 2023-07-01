@@ -1,0 +1,39 @@
+.text {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: .8rem;
+    color: var(--color-carbon);
+    font-weight: 400;
+
+    &1 {
+        color: var(--color-dark-grey);
+        font-weight: 300;
+    }
+
+    &2 {
+        font-size: .75rem;
+        font-weight: 400;
+    }
+
+    &3 {
+        font-size: 1rem;
+        font-weight: 700;
+        color: var(--color-black);
+    }
+    &4{
+        font-size: .8rem;
+        font-weight: 700;
+        color: var(--color-black);
+
+    }
+    &5{
+        font-size: 1rem;
+        font-weight: 400;
+
+    }
+    &6{
+        font-size: 1rem;
+        font-weight: 700;
+        color: var( --color-royal-lavender);
+
+    }
+}

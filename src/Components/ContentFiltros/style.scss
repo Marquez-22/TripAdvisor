@@ -1,0 +1,18 @@
+.ContentFiltros1{
+    display: grid;
+    grid-template-columns: 16.6rem 1fr;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+    .columna1{
+
+    }
+    .columna2{
+
+    }
+    @media (max-width:767px) {
+      
+        grid-template-columns: 1fr;
+    }
+}
