@@ -7,6 +7,11 @@
     align-items: flex-start;
     align-content: flex-start;
     gap:1rem;
+    @media (max-width:575px) {
+        
+        grid-template-columns: 1fr;
+    }
+
     .TouriSites {
         width: 15.5rem;
         aspect-ratio: 1/1;
@@ -36,8 +41,6 @@
             z-index: 1;
             }
     }
-
-
 
     
 }

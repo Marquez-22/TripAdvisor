@@ -22,5 +22,18 @@
             width: 25%;
         }
     }
+    @media (max-width:575px){
+        .InputSearch {
+            width: 100%;
+        }
+        
+        .btn{
+            width: 40%;
+        }
+        .logo {
+            text-align: center;
+            width: 100%;
+        }
+    }
    
 }
