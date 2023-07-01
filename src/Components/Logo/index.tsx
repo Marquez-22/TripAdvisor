@@ -8,7 +8,7 @@ interface LogoProps{
 export const Logo =({styleTemplate="logoType"}:LogoProps)=>{
     return(<>
     <div className={`logo ${styleTemplate}`}>
-        <img src="/img/tripvisor1.png"></img>
+        <img src="/img/tripvisorlogo.png"></img>
     </div>
     </>)
 }

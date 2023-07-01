@@ -1,4 +1,5 @@
 
+import { Container } from "../Container"
 import { FooterInterno } from "../FooterInterno"
 import { InputSelect } from "../InputSelect"
 import { Text } from "../Text"
@@ -12,27 +13,23 @@ interface FooterProps {
 export const Footer = ({ styleTemplate = "Footer1" }: FooterProps) => {
     return (<>
         <div className={`Footer ${styleTemplate}`}>
+            <Container>
+                <FooterInterno />
+                <div className="columna2">
 
-            <FooterInterno />
-            <div className="columna2">
+                    <InputSelect styleTemplate="InputSelect1"
 
-                <InputSelect styleTemplate="InputSelect1"
+                        placeholder="Forma de Pago"
+                    />
+                </div>
+                <div className="columna3">
 
-                    placeholder="Forma de Pago"
-                />
+                    <InputSelect styleTemplate="InputSelect1"
 
-
-            </div>
-            <div className="columna3">
-
-                <InputSelect styleTemplate="InputSelect1"
-
-                    placeholder="Pais"
-                />
-            </div>
-
-
-
+                        placeholder="Pais"
+                    />
+                </div>
+            </Container>
         </div>
 
     </>)

@@ -242,13 +242,15 @@ body {
 }
 
 .Footer {
+  background: var(--color-shea);
+}
+.Footer .Container {
   display: grid;
   grid-template-columns: 1fr 11.2rem 11.2rem;
   grid-template-rows: 1fr;
   grid-column-gap: 0.5rem;
   grid-row-gap: 0px;
-  background: var(--color-shea);
-  padding: 2rem;
+  padding-block: 2rem;
 }
 .Footer .columna2 {
   grid-area: 1/2/2/3;
